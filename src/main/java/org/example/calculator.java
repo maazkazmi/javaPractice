@@ -7,14 +7,20 @@ public class calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        int num1 = scanner.nextInt();
 
         System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        int num2 = scanner.nextInt();
 
         System.out.print("Enter an operator (+, -,*,/): ");
+        String operator = scanner.next();
 
-        double result;
-
-
-    }}
+        switch(operator)
+        {
+            case "+" -> System.out.println(num1 + num2);
+            case "-" -> System.out.println(num1 - num2);
+            case "*" -> System.out.println(num1 * num2);
+            case "/" -> System.out.println(num1 / num2);
+        }
+    }
+}
