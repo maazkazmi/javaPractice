@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 //n! = n * (n-1)*...*1
 // Write a program to find the factorial value of any number entered through the keyboard.
-public class problem2 {
+public class Factorial {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

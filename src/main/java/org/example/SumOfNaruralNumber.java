@@ -1,6 +1,6 @@
 package org.example;
 
-public class problem1 {
+public class SumOfNaruralNumber {
     //Write a program to calculate the sum of first 10 natural number.
 
 
