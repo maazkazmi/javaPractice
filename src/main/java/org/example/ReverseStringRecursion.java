@@ -13,8 +13,21 @@ public class ReverseStringRecursion
 
         System.out.println("Reversed string: "+ reversedStr);
     }
+
+    static String ReverseStringRecursion(String str)
+    {
+        if(str.isEmpty())
+        {
+            return str;
+        }
+        else
+        {
+          return ReverseStringRecursion(str.substring(1)) + str.charAt(0);
+        }
+    }
+
     public static void main(String[] args)
     {
-        ReverseString("MAAZ");
+        System.out.println(ReverseStringRecursion("MAAZ"));
     }
 }
