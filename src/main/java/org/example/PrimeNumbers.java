@@ -9,12 +9,25 @@ public class PrimeNumbers {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
 
-        System.out.println("Enter a int");
+        System.out.print("Enter a int: ");
         int num  = myObj.nextInt();
+        boolean flag = false;
 
-        if(Prime(num)){
-            System.out.println(num  +  );
+        for(int i = 2 ; i < num / 2 ; i++)
+        {
+            if(num % i == 0)
+            {
+                System.out.println("not a prime number");
+                flag = true;
+                break;
+            }
         }
+
+        if(!flag)
+        {
+            System.out.println("It is a prime number");
+        }
+
     }
 
 
