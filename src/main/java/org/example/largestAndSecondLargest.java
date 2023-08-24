@@ -31,7 +31,7 @@ public class largestAndSecondLargest {
             }
         }
         System.out.println(largest);
-        System.out.println("This is the secound largest number "  +secondlargest);
+        System.out.println("This is the second largest number "  +secondlargest);
 
     }
 }
