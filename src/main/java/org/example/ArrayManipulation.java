@@ -41,3 +41,4 @@ public class ArrayManipulation {
         System.out.println("Minimum: " + min);
     }
 }
+
